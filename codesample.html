@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Blind Friendly Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #F0F0F0;
+      color: #333333; /* Dark gray for good contrast */
+    }
+    .header {
+      background-color: #2D7DD2; /* Blue */
+      color: #FFFFFF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .content {
+      margin: 20px 0;
+      padding: 15px;
+      background-color: #F0C808; /* Yellow with good contrast */
+      border: 1px solid #333333;
+      border-radius: 5px;
+    }
+    .buttons {
+      display: flex;
+      gap: 10px;
+    }
+    .button {
+      padding: 10px 20px;
+      text-align: center;
+      color: #FFFFFF;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .button-blue {
+      background-color: #0072B2; /* Strong blue */
+    }
+    .button-orange {
+      background-color: #E69F00; /* Orange */
+    }
+    .button-green {
+      background-color: #009E73; /* Green */
+    }
+    .button:hover {
+      filter: brightness(1.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Color Blind Friendly Design</h1>
+  </div>
+  <div class="content">
+    <p>
+      This design uses a color scheme optimized for people with color blindness.
+      Each color was chosen for high contrast and clarity, regardless of the type of color vision deficiency.
+    </p>
+    <div class="buttons">
+      <a href="#" class="button button-blue">Blue Action</a>
+      <a href="#" class="button button-orange">Orange Action</a>
+      <a href="#" class="button button-green">Green Action</a>
+    </div>
+  </div>
+</body>
+</html>
